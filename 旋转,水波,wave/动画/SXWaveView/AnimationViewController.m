@@ -145,15 +145,7 @@
     [self Star];
     [self Star1];
 }
-//
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-}
 
-
-- (IBAction)Annbtn:(id)sender {
-   
-}
 - (void)startTimer{
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
@@ -174,7 +166,7 @@
     NSLog(@"ddd  %@",[NSString stringWithFormat:@"0%d:%02d",minutes,seconds]);
 self.timeStr.text=[NSString stringWithFormat:@"0%d:%02d",minutes,seconds];
     if (self.speed==0) {
-        [self performSegueWithIdentifier:@"aginfind" sender:self];
+        return;
     }
 }
 
@@ -184,12 +176,7 @@ self.timeStr.text=[NSString stringWithFormat:@"0%d:%02d",minutes,seconds];
     [self.timer invalidate];
     self.timer=nil;
 }
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [self cancleRequest];
-}
-
--(void)StartAnimation
+ -(void)StartAnimation
 {
     [self.animateView1 addAnimateWithType:1];
     //开启定时器
@@ -198,18 +185,15 @@ self.timeStr.text=[NSString stringWithFormat:@"0%d:%02d",minutes,seconds];
 }
 -(void)showSuccessAlert
 {
-   
         self.AnimationRoation.hidden=YES;
         self.AlertImageViwe.hidden=YES;
         self.animateView1.hidden=YES;
         self.SeekHead.hidden=NO;
         [self ZoomImage];
-        self.label1.text=@"已经成功匹配到";
-        self.label2.text=@"最适合您的顾问";
+        self.label1.text=@"欢迎提出问题";
+        self.label2.text=@"谢谢";
         
     }
-
-
 #pragma mark -
 - (void)cancleRequest
 {
