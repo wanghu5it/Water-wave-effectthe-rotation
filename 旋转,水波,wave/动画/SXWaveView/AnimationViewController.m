@@ -145,6 +145,7 @@
     [self Star];
     [self Star1];
 }
+//
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
