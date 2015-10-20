@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6Fy-DP-zpb">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DcW-8q-sHZ">
+                                <rect key="frame" x="65" y="83" width="176" height="84"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-419.5" y="-384.5"/>
+        </scene>
+        <!--查找规划师动画页-->
+        <scene sceneID="yth-AA-z8c">
+            <objects>
+                <viewController storyboardIdentifier="animation" title="查找规划师动画页" id="6Fy-DP-zpb" customClass="AnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i7E-tQ-lOJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="dKH-S7-TdA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c8A-L8-Fcq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在315位规划顾问" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bX2-mH-0nS">
+                                <rect key="frame" x="112" y="35" width="139" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="HD0-WH-vnJ"/>
+                                    <constraint firstAttribute="width" constant="139" id="h4C-sf-g2I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.41568627450000001" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="中正在匹配最适合您的顾问...." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ign-4O-3cy">
+                                <rect key="frame" x="60" y="67" width="237" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="7hF-Pw-hLZ"/>
+                                    <constraint firstAttribute="width" constant="237" id="cGh-O8-sEP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.41568627450000001" green="0.41568627450000001" blue="0.41568627450000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x5t-K5-10L">
+                                <rect key="frame" x="43" y="121" width="290" height="277"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xinxin2" translatesAutoresizingMaskIntoConstraints="NO" id="cNZ-NX-4FS">
+                                        <rect key="frame" x="214" y="83" width="0.0" height="0.0"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="xinxin1" translatesAutoresizingMaskIntoConstraints="NO" id="TdO-sS-NBg">
+                                        <rect key="frame" x="76" y="90" width="0.0" height="0.0"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seekImage" translatesAutoresizingMaskIntoConstraints="NO" id="IWc-lf-Hjm">
+                                        <rect key="frame" x="58" y="60" width="169" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="169" id="FGB-TV-M8R"/>
+                                            <constraint firstAttribute="height" constant="200" id="o21-w8-9oB"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="HeadSeek" translatesAutoresizingMaskIntoConstraints="NO" id="GWu-iv-BfW">
+                                        <rect key="frame" x="123" y="127" width="39" height="30"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="03:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9tl-XG-nMj">
+                                        <rect key="frame" x="99" y="165" width="87" height="27"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="23"/>
+                                        <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fb_rotation" translatesAutoresizingMaskIntoConstraints="NO" id="cT2-e0-0DE">
+                                        <rect key="frame" x="6" y="6" width="278" height="271"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="cT2-e0-0DE" secondAttribute="height" multiplier="278:271" id="WXO-zJ-PoV"/>
+                                            <constraint firstAttribute="height" constant="271" id="fzp-Ns-kck"/>
+                                            <constraint firstAttribute="width" constant="278" id="vpd-iG-FRn"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="290" id="CeO-DI-htX"/>
+                                    <constraint firstItem="cT2-e0-0DE" firstAttribute="top" secondItem="x5t-K5-10L" secondAttribute="top" constant="6" id="CeS-hk-469"/>
+                                    <constraint firstAttribute="height" constant="277" id="coe-Ll-6Qr"/>
+                                    <constraint firstItem="IWc-lf-Hjm" firstAttribute="leading" secondItem="x5t-K5-10L" secondAttribute="leading" constant="58" id="dPZ-TB-I20"/>
+                                    <constraint firstItem="IWc-lf-Hjm" firstAttribute="top" secondItem="x5t-K5-10L" secondAttribute="top" constant="60" id="kON-yr-7LI"/>
+                                    <constraint firstAttribute="trailing" secondItem="cT2-e0-0DE" secondAttribute="trailing" constant="6" id="mK8-Jz-B22"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="AlertiMage" translatesAutoresizingMaskIntoConstraints="NO" id="Qep-cN-jDt">
+                                <rect key="frame" x="170" y="193" width="33" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="RdJ-qy-cJ0"/>
+                                    <constraint firstAttribute="height" constant="32" id="Y9W-m8-XFg"/>
+                                    <constraint firstAttribute="width" secondItem="Qep-cN-jDt" secondAttribute="height" multiplier="1:1" id="hAf-Gp-CFb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zcf-tf-dai">
+                                <rect key="frame" x="82" y="429" width="102" height="28"/>
+                                <state key="normal" title="开始(start)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Start:" destination="6Fy-DP-zpb" eventType="touchUpInside" id="ivv-PN-lIx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o9e-gc-5ly">
+                                <rect key="frame" x="222" y="429" width="111" height="29"/>
+                                <state key="normal" title="展示(show)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="Show:" destination="6Fy-DP-zpb" eventType="touchUpInside" id="TQl-Oh-hle"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294119999996" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="x5t-K5-10L" secondAttribute="centerX" id="9aq-QT-a50"/>
+                            <constraint firstItem="x5t-K5-10L" firstAttribute="top" secondItem="ign-4O-3cy" secondAttribute="bottom" constant="26" id="DN9-uS-9AA"/>
+                            <constraint firstAttribute="centerX" secondItem="ign-4O-3cy" secondAttribute="centerX" id="VLg-zx-Dic"/>
+                            <constraint firstAttribute="centerX" secondItem="Qep-cN-jDt" secondAttribute="centerX" id="Z1p-jh-sxa"/>
+                            <constraint firstItem="Qep-cN-jDt" firstAttribute="top" secondItem="ign-4O-3cy" secondAttribute="bottom" constant="98" id="hmt-gc-yH4"/>
+                            <constraint firstItem="bX2-mH-0nS" firstAttribute="top" secondItem="c8A-L8-Fcq" secondAttribute="top" constant="35" id="iPw-qV-pA4"/>
+                            <constraint firstAttribute="centerX" secondItem="bX2-mH-0nS" secondAttribute="centerX" constant="6" id="tV8-NC-5nA"/>
+                            <constraint firstItem="ign-4O-3cy" firstAttribute="top" secondItem="bX2-mH-0nS" secondAttribute="bottom" id="y3P-zY-lof"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Bo-J1-t8F"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="AlertImageViwe" destination="Qep-cN-jDt" id="1gg-bf-60N"/>
+                        <outlet property="Animation" destination="x5t-K5-10L" id="965-HV-Bkl"/>
+                        <outlet property="AnimationRoation" destination="cT2-e0-0DE" id="phw-If-xuF"/>
+                        <outlet property="SeekHead" destination="GWu-iv-BfW" id="edc-Uz-NPb"/>
+                        <outlet property="label1" destination="bX2-mH-0nS" id="0lv-Ql-Nzb"/>
+                        <outlet property="label2" destination="ign-4O-3cy" id="uvm-ms-MGK"/>
+                        <outlet property="timeStr" destination="9tl-XG-nMj" id="Fdb-vg-kdJ"/>
+                        <outlet property="xinxinImage2" destination="cNZ-NX-4FS" id="jnv-jx-c8F"/>
+                        <outlet property="xinxinImageView1" destination="TdO-sS-NBg" id="evE-jQ-CL4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaY-lD-8nb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.5" y="-355.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AlertiMage" width="88" height="114"/>
+        <image name="HeadSeek" width="633" height="633"/>
+        <image name="fb_rotation" width="1137" height="1148"/>
+        <image name="seekImage" width="680" height="821"/>
+        <image name="xinxin1" width="112" height="127"/>
+        <image name="xinxin2" width="50" height="59"/>
+    </resources>
+</document>

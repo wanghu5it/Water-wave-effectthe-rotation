@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BCCFF951BD6200D00C95611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFF941BD6200D00C95611 /* main.m */; };
+		7BCCFF981BD6200D00C95611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFF971BD6200D00C95611 /* AppDelegate.m */; };
+		7BCCFF9B1BD6200D00C95611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFF9A1BD6200D00C95611 /* ViewController.m */; };
+		7BCCFF9E1BD6200D00C95611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCCFF9C1BD6200D00C95611 /* Main.storyboard */; };
+		7BCCFFA01BD6200D00C95611 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCCFF9F1BD6200D00C95611 /* Images.xcassets */; };
+		7BCCFFA31BD6200D00C95611 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BCCFFA11BD6200D00C95611 /* LaunchScreen.xib */; };
+		7BCCFFAF1BD6200D00C95611 /* ______waveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFFAE1BD6200D00C95611 /* ______waveTests.m */; };
+		7BCCFFC31BD620C600C95611 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFFBB1BD620C600C95611 /* AnimationViewController.m */; };
+		7BCCFFC41BD620C600C95611 /* SXHalfWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFFBD1BD620C600C95611 /* SXHalfWaveView.m */; };
+		7BCCFFC51BD620C600C95611 /* SXWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFFBF1BD620C600C95611 /* SXWaveView.m */; };
+		7BCCFFC61BD620C600C95611 /* UIViewAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCCFFC21BD620C600C95611 /* UIViewAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BCCFFA91BD6200D00C95611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BCCFF871BD6200D00C95611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BCCFF8E1BD6200D00C95611;
+			remoteInfo = "旋转,水波,wave";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BCCFF8F1BD6200D00C95611 /* 旋转,水波,wave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "旋转,水波,wave.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCCFF931BD6200D00C95611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCCFF941BD6200D00C95611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BCCFF961BD6200D00C95611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BCCFF971BD6200D00C95611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BCCFF991BD6200D00C95611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BCCFF9A1BD6200D00C95611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BCCFF9D1BD6200D00C95611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BCCFF9F1BD6200D00C95611 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BCCFFA21BD6200D00C95611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7BCCFFA81BD6200D00C95611 /* 旋转,水波,waveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "旋转,水波,waveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BCCFFAD1BD6200D00C95611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BCCFFAE1BD6200D00C95611 /* ______waveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______waveTests.m"; sourceTree = "<group>"; };
+		7BCCFFBA1BD620C600C95611 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		7BCCFFBB1BD620C600C95611 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		7BCCFFBC1BD620C600C95611 /* SXHalfWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXHalfWaveView.h; sourceTree = "<group>"; };
+		7BCCFFBD1BD620C600C95611 /* SXHalfWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXHalfWaveView.m; sourceTree = "<group>"; };
+		7BCCFFBE1BD620C600C95611 /* SXWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXWaveView.h; sourceTree = "<group>"; };
+		7BCCFFBF1BD620C600C95611 /* SXWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXWaveView.m; sourceTree = "<group>"; };
+		7BCCFFC11BD620C600C95611 /* UIViewAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAdditions.h; sourceTree = "<group>"; };
+		7BCCFFC21BD620C600C95611 /* UIViewAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAdditions.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BCCFF8C1BD6200D00C95611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCCFFA51BD6200D00C95611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BCCFF861BD6200D00C95611 = {
+			isa = PBXGroup;
+			children = (
+				7BCCFF911BD6200D00C95611 /* 旋转,水波,wave */,
+				7BCCFFAB1BD6200D00C95611 /* 旋转,水波,waveTests */,
+				7BCCFF901BD6200D00C95611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BCCFF901BD6200D00C95611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFF8F1BD6200D00C95611 /* 旋转,水波,wave.app */,
+				7BCCFFA81BD6200D00C95611 /* 旋转,水波,waveTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BCCFF911BD6200D00C95611 /* 旋转,水波,wave */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFFB81BD620C600C95611 /* 动画 */,
+				7BCCFF961BD6200D00C95611 /* AppDelegate.h */,
+				7BCCFF971BD6200D00C95611 /* AppDelegate.m */,
+				7BCCFF991BD6200D00C95611 /* ViewController.h */,
+				7BCCFF9A1BD6200D00C95611 /* ViewController.m */,
+				7BCCFF9C1BD6200D00C95611 /* Main.storyboard */,
+				7BCCFF9F1BD6200D00C95611 /* Images.xcassets */,
+				7BCCFFA11BD6200D00C95611 /* LaunchScreen.xib */,
+				7BCCFF921BD6200D00C95611 /* Supporting Files */,
+			);
+			path = "旋转,水波,wave";
+			sourceTree = "<group>";
+		};
+		7BCCFF921BD6200D00C95611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFF931BD6200D00C95611 /* Info.plist */,
+				7BCCFF941BD6200D00C95611 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BCCFFAB1BD6200D00C95611 /* 旋转,水波,waveTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFFAE1BD6200D00C95611 /* ______waveTests.m */,
+				7BCCFFAC1BD6200D00C95611 /* Supporting Files */,
+			);
+			path = "旋转,水波,waveTests";
+			sourceTree = "<group>";
+		};
+		7BCCFFAC1BD6200D00C95611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFFAD1BD6200D00C95611 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BCCFFB81BD620C600C95611 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFFB91BD620C600C95611 /* SXWaveView */,
+				7BCCFFC01BD620C600C95611 /* Vendor */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
+		7BCCFFB91BD620C600C95611 /* SXWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFFBA1BD620C600C95611 /* AnimationViewController.h */,
+				7BCCFFBB1BD620C600C95611 /* AnimationViewController.m */,
+				7BCCFFBC1BD620C600C95611 /* SXHalfWaveView.h */,
+				7BCCFFBD1BD620C600C95611 /* SXHalfWaveView.m */,
+				7BCCFFBE1BD620C600C95611 /* SXWaveView.h */,
+				7BCCFFBF1BD620C600C95611 /* SXWaveView.m */,
+			);
+			path = SXWaveView;
+			sourceTree = "<group>";
+		};
+		7BCCFFC01BD620C600C95611 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				7BCCFFC11BD620C600C95611 /* UIViewAdditions.h */,
+				7BCCFFC21BD620C600C95611 /* UIViewAdditions.m */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BCCFF8E1BD6200D00C95611 /* 旋转,水波,wave */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCCFFB21BD6200D00C95611 /* Build configuration list for PBXNativeTarget "旋转,水波,wave" */;
+			buildPhases = (
+				7BCCFF8B1BD6200D00C95611 /* Sources */,
+				7BCCFF8C1BD6200D00C95611 /* Frameworks */,
+				7BCCFF8D1BD6200D00C95611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "旋转,水波,wave";
+			productName = "旋转,水波,wave";
+			productReference = 7BCCFF8F1BD6200D00C95611 /* 旋转,水波,wave.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BCCFFA71BD6200D00C95611 /* 旋转,水波,waveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BCCFFB51BD6200D00C95611 /* Build configuration list for PBXNativeTarget "旋转,水波,waveTests" */;
+			buildPhases = (
+				7BCCFFA41BD6200D00C95611 /* Sources */,
+				7BCCFFA51BD6200D00C95611 /* Frameworks */,
+				7BCCFFA61BD6200D00C95611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BCCFFAA1BD6200D00C95611 /* PBXTargetDependency */,
+			);
+			name = "旋转,水波,waveTests";
+			productName = "旋转,水波,waveTests";
+			productReference = 7BCCFFA81BD6200D00C95611 /* 旋转,水波,waveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BCCFF871BD6200D00C95611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = wanghu;
+				TargetAttributes = {
+					7BCCFF8E1BD6200D00C95611 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7BCCFFA71BD6200D00C95611 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7BCCFF8E1BD6200D00C95611;
+					};
+				};
+			};
+			buildConfigurationList = 7BCCFF8A1BD6200D00C95611 /* Build configuration list for PBXProject "旋转,水波,wave" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BCCFF861BD6200D00C95611;
+			productRefGroup = 7BCCFF901BD6200D00C95611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BCCFF8E1BD6200D00C95611 /* 旋转,水波,wave */,
+				7BCCFFA71BD6200D00C95611 /* 旋转,水波,waveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BCCFF8D1BD6200D00C95611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCCFF9E1BD6200D00C95611 /* Main.storyboard in Resources */,
+				7BCCFFA31BD6200D00C95611 /* LaunchScreen.xib in Resources */,
+				7BCCFFA01BD6200D00C95611 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCCFFA61BD6200D00C95611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BCCFF8B1BD6200D00C95611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCCFF9B1BD6200D00C95611 /* ViewController.m in Sources */,
+				7BCCFF981BD6200D00C95611 /* AppDelegate.m in Sources */,
+				7BCCFFC61BD620C600C95611 /* UIViewAdditions.m in Sources */,
+				7BCCFFC51BD620C600C95611 /* SXWaveView.m in Sources */,
+				7BCCFF951BD6200D00C95611 /* main.m in Sources */,
+				7BCCFFC31BD620C600C95611 /* AnimationViewController.m in Sources */,
+				7BCCFFC41BD620C600C95611 /* SXHalfWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BCCFFA41BD6200D00C95611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCCFFAF1BD6200D00C95611 /* ______waveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BCCFFAA1BD6200D00C95611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BCCFF8E1BD6200D00C95611 /* 旋转,水波,wave */;
+			targetProxy = 7BCCFFA91BD6200D00C95611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BCCFF9C1BD6200D00C95611 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCCFF9D1BD6200D00C95611 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BCCFFA11BD6200D00C95611 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BCCFFA21BD6200D00C95611 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BCCFFB01BD6200D00C95611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BCCFFB11BD6200D00C95611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BCCFFB31BD6200D00C95611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旋转,水波,wave/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BCCFFB41BD6200D00C95611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "旋转,水波,wave/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BCCFFB61BD6200D00C95611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "旋转,水波,waveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旋转,水波,wave.app/旋转,水波,wave";
+			};
+			name = Debug;
+		};
+		7BCCFFB71BD6200D00C95611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "旋转,水波,waveTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/旋转,水波,wave.app/旋转,水波,wave";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BCCFF8A1BD6200D00C95611 /* Build configuration list for PBXProject "旋转,水波,wave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCCFFB01BD6200D00C95611 /* Debug */,
+				7BCCFFB11BD6200D00C95611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BCCFFB21BD6200D00C95611 /* Build configuration list for PBXNativeTarget "旋转,水波,wave" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCCFFB31BD6200D00C95611 /* Debug */,
+				7BCCFFB41BD6200D00C95611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BCCFFB51BD6200D00C95611 /* Build configuration list for PBXNativeTarget "旋转,水波,waveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BCCFFB61BD6200D00C95611 /* Debug */,
+				7BCCFFB71BD6200D00C95611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BCCFF871BD6200D00C95611 /* Project object */;
+}
