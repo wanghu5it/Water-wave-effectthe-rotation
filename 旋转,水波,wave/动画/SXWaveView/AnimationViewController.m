@@ -169,7 +169,6 @@ self.timeStr.text=[NSString stringWithFormat:@"0%d:%02d",minutes,seconds];
         return;
     }
 }
-
 #pragma mark  确保在退出该界面的时候销毁NStimer
 -(void)viewDidDisappear:(BOOL)animated
 {
@@ -193,7 +192,7 @@ self.timeStr.text=[NSString stringWithFormat:@"0%d:%02d",minutes,seconds];
         self.label1.text=@"欢迎提出问题";
         self.label2.text=@"谢谢";
         
-    }
+    }//
 #pragma mark -
 - (void)cancleRequest
 {
